@@ -51,4 +51,3 @@ jobs:
 
       - name: Print the Downloaded Path
         run: echo ${{steps.spacexfolderdownload.outputs.download-path}}
-
