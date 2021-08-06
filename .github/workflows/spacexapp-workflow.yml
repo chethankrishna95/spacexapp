@@ -25,6 +25,8 @@ jobs:
 
       - name: Build the Spacex Application using Gatsby
         run: gatsby build
+        
+      - run: ls -ltr
 
 #      - name: Archive the Build Folder i.e public folder
 #        uses: actions/upload-artifacts@v2
