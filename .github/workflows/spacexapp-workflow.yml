@@ -28,12 +28,13 @@ jobs:
         
       - run: ls -ltr
 
-#      - name: Archive the Build Folder i.e public folder
-#        uses: actions/upload-artifacts@v2
-#        with:
-#          name: spacexpublicfolder
-#          path: ./public/
-#        if: always()
+      - name: Archive the Build Folder i.e public folder
+        uses: actions/upload-artifacts@v2
+        with:
+          name: spacexpublicfolder
+          path: ./public/
+        if: always()
+        continue-on-error: true
 
 
 #  deployment:
