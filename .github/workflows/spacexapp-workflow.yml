@@ -23,8 +23,8 @@ jobs:
       - name: Install Node Modules
         run: npm install
 
-#      - name: Build the Spacex Application using Gatsby
-#        run: gatsby build
+      - name: Build the Spacex Application using Gatsby
+        run: gatsby build
 
 #      - name: Archive the Build Folder i.e public folder
 #        uses: actions/upload-artifacts@v2
