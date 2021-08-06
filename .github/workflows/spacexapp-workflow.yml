@@ -59,4 +59,4 @@ jobs:
         
         
       - name: Deploying the Application using Surge
-        run: surge . ${{ secrets.SURGE_DOMAIN }} --add ${{ secrets.SURGE_Login }} --token ${{ secrets.SURGE_TOKEN }}
+        run: surge . ${{ secrets.SURGE_DOMAIN }} ${{ secrets.SURGE_Login }} --token ${{ secrets.SURGE_TOKEN }}
