@@ -11,11 +11,11 @@ jobs:
         with:
           node-version: "12"
       
-#      - name: Verify the Node.JS Version
-#       run: node --version
+      - name: Verify the Node.JS Version
+        run: node --version
 
-#      - name: Install Gatsby Library
-#        run: npm install -g gatsby-cli
+      - name: Install Gatsby Library
+        run: npm install -g gatsby-cli
 
 #      - name: Checkout the Code
 #        uses: actions/checkout@v2
